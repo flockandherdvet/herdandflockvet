@@ -1,0 +1,6 @@
+{
+  "name": "HERD AND FLOCK VET",
+  "description": "Veterinary e-commerce and consultation portal for poultry and dairy farmers, directed by Dr. Zain Rauf (DVM, Poultry & Dairy Specialist).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

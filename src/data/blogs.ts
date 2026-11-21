@@ -1,0 +1,106 @@
+import { BlogPost } from '../types';
+
+export const BLOG_POSTS: BlogPost[] = [
+  {
+    id: 'b1',
+    title: 'Managing Heat Stress in Commercial Broilers: Ventilation, Water Temp & Electrolyte Regimen',
+    slug: 'poultry-heat-stress-management',
+    species: 'poultry',
+    category: 'Flock Management',
+    date: '2026-10-12',
+    readTime: '5 min read',
+    author: 'Dr. Zain Rauf',
+    authorRole: 'Veterinarian & Poultry/Dairy Specialist',
+    excerpt:
+      'When poultry shed temperatures exceed 30°C, chickens cannot sweat. Here is an evidence-based cooling checklist that protects your feed conversion ratio and cuts heat mortality.',
+    content: [
+      'Unlike mammals, chickens possess no sweat glands and rely entirely on panting (respiratory evaporative heat loss) to dissipate heat. When ambient temperatures surpass 30°C and relative humidity climbs above 65%, panting causes severe respiratory alkalosis by blowing off blood carbon dioxide (CO2).',
+      'This rapid drop in blood CO2 leads to blood pH elevation, ion imbalances, and sudden bird prostration. Many farmers mistakenly flood birds with antibiotics when the actual root cause is physiological acidosis/alkalosis.',
+      'Step 1: Cool Drinking Water. If water in header tanks sits above 25°C, birds drastically drop water intake. Cover rooftop PVC pipelines with reflective straw mats or white lime wash, and flush water lines 3 times daily during peak afternoon hours.',
+      'Step 2: Supplement Electrolytes. Supplementing balanced electrolytes (such as Avi Hydr8 Electrolyte) supports osmotic hydration during heat waves. Follow the product label or consult Dr. Zain for flock dilution.',
+      'Step 3: Strategic Feeding Schedule. Withdraw heavy mash feeding 2 to 3 hours prior to peak heat (11:00 AM to 4:00 PM) to avoid specific dynamic action (heat of digestion). Resume feeding in the cooler evening hours with supportive Vitamin E + Selenium supplementation.',
+    ],
+    keyTips: [
+      'Maintain drinker water temperature below 24°C at all costs.',
+      'Provide Avi Hydr8 Electrolyte before afternoon heat peaks (follow label dosage).',
+      'Clean evaporative cooling pads weekly with disinfectant to prevent clogging.',
+      'Run ceiling tunnel fans on maximum air speed across birds backs (minimum 2.5 m/sec).',
+    ],
+  },
+  {
+    id: 'b2',
+    title: 'Subclinical Mastitis in Dairy Cows & Buffaloes: The 5-Point Udder Health Protocol',
+    slug: 'mastitis-control-protocol',
+    species: 'dairy',
+    category: 'Udder Health',
+    date: '2026-09-25',
+    readTime: '6 min read',
+    author: 'Dr. Zain Rauf',
+    authorRole: 'Veterinarian & Poultry/Dairy Specialist',
+    excerpt:
+      'Subclinical mastitis costs dairy farmers up to 20% in invisible lost milk yield per lactation. Learn how simple teat dipping and California Mastitis Testing (CMT) save thousands of rupees.',
+    content: [
+      'For every cow showing visible clots or swollen quarters (clinical mastitis), there are typically 15 to 40 cows in the herd suffering from subclinical mastitis. Their milk looks normal to the naked eye, but the somatic cell count (SCC) exceeds 200,000 cells/mL, signaling internal quarter tissue damage.',
+      'The teat canal remains wide open for 30 to 45 minutes following milking machine detachment. If cows immediately lie down on contaminated bedding or wet shed dung, environmental bacteria like Streptococcus uberis and E. coli freely enter the teat cistern.',
+      'The Golden Rule of Teat Dipping: Always apply a high-emollient post-milking barrier dip (such as Iodine Barrier Teat Dip 0.5%) to at least three-quarters of each teat immediately upon cluster removal. This forms an antiseptic plug while the teat sphincter muscle recovers tone.',
+      'Provide fresh feed in mangers immediately after milking. This entices cows to remain standing for at least 45 minutes while eating, allowing the teat canal to close securely before they lie down on bedding.',
+      'Conduct monthly CMT (California Mastitis Test) screenings on all milking quarters. Identify high-SCC cows and milk them last to prevent spreading contagious pathogens like Staphylococcus aureus to heifers.',
+    ],
+    keyTips: [
+      'Never wash teats with dirty communal rags; use single-use dry paper towels.',
+      'Always dip teats with 0.5% Iodine Barrier immediately post-milking.',
+      'Keep cows standing for 45 minutes post-milking by providing fresh green fodder.',
+      'Routinely screen quarters using a California Mastitis Test (CMT) paddle.',
+    ],
+  },
+  {
+    id: 'b3',
+    title: 'Calf Scours (Diarrhea): The Vital 72-Hour Oral Rehydration Protocol',
+    slug: 'calf-scours-rehydration-guide',
+    species: 'dairy',
+    category: 'Youngstock Care',
+    date: '2026-09-08',
+    readTime: '4 min read',
+    author: 'Dr. Zain Rauf',
+    authorRole: 'Veterinarian & Poultry/Dairy Specialist',
+    excerpt:
+      'Calves do not die from the scours bacteria or virus itself—they die from dehydration and metabolic acidosis. Here is how to keep scoured calves alive and thriving.',
+    content: [
+      'When neonatal dairy or buffalo calves develop watery white or yellow diarrhea, the intestinal villi lose their absorptive surface area. Within 12 hours, a 40 kg calf can shed up to 4 liters of fluid and vital electrolytes, causing sunken eyes, cold ear tips, and loss of suckle reflex.',
+      'Common Misconception: Withholding Milk. Many older farm practices advocate starving the calf of milk. Veterinary clinical trials have conclusively proven that withholding milk starves the calf of energy, impairs enterocyte repair, and leads to rapid weight loss. Continue providing morning and evening milk.',
+      'Feed Oral Rehydration Solution (ORT) separately: Mix Calf-Care Electrolyte powder in warm clean water (38°C) and feed 2 liters at noon, and 2 liters again at 4:00 PM between milk feedings. The sodium acetate and dextrose in the electrolyte actively transport water across inflamed gut walls.',
+      'Inspect the calf for dehydration degree: Pinch the skin on the side of the neck. If the skin tent takes longer than 3 seconds to flatten and eyes are visibly sunken, immediate veterinary intravenous fluid therapy (IV Ringers Lactate with sodium bicarbonate) is required.',
+    ],
+    keyTips: [
+      'Never stop milk completely; feed milk for nutrition and electrolytes 2 hours apart for hydration.',
+      'Feed oral electrolytes in warm water (38°C), not cold well water.',
+      'Ensure newborn calves receive 3 to 4 liters of high-quality colostrum within the first 4 hours of life.',
+      'Disinfect individual calf pens between calves with veterinary disinfectant.',
+    ],
+  },
+  {
+    id: 'b4',
+    title: 'First 7 Days of Broiler Brooding: Temperature, Floor Space & Early Feed Intake',
+    slug: 'broiler-brooding-guide',
+    species: 'poultry',
+    category: 'Brooding & Incubation',
+    date: '2026-08-20',
+    readTime: '5 min read',
+    author: 'Dr. Zain Rauf',
+    authorRole: 'Veterinarian & Poultry/Dairy Specialist',
+    excerpt:
+      'The first 7 days represent 20% of a modern broiler bird’s entire life cycle. Achieving 4.5x birth weight by Day 7 is the primary predictor of final harvest profitability.',
+    content: [
+      'Day-old broiler chicks arrive with an immature thermoregulatory system. They cannot regulate their internal body temperature until approximately 14 days of age. If the litter or ambient air is too cold, chicks huddle together, refuse to eat, and fail to absorb their residual yolk sac, leading to unabsorbed yolk infections (omphalitis).',
+      'Target Brooder Temperatures: Maintain 32°C to 34°C at chick height directly under the ceramic heat lamp, with a surrounding shed ambient of 28°C. This allows chicks to choose their comfort microclimate.',
+      'Observe Chick Behavior (The Living Thermometer): If chicks are huddled tightly under the lamp, it is too cold. If they are pressed against the chick guard perimeter panting, it is too hot. Uniform dispersion with active eating and chirping indicates optimal brooding comfort.',
+      'Crop Fill Assessment: At 8 hours post-placement, gently palpate the crops of 50 chicks. At least 80% should have soft, pliable crops full of feed and water. At 24 hours, crop fill should reach 95%.',
+    ],
+    keyTips: [
+      'Pre-heat the brooding shed 24 hours before chick arrival to warm the floor litter.',
+      'Provide Avi Hydr8 Electrolyte water for the first 4 hours before introducing starter crumb (check label dosage).',
+      'Check crop fill on 50 chicks at 8 hours and 24 hours post-placement.',
+      'Provide 24 hours of bright light (30-40 lux) for the first 48 hours so chicks locate waterers easily.',
+    ],
+  },
+];
